@@ -1,20 +1,11 @@
-    *{
-        background-color: black;
-    }
+
     
-
-    .rectangle{
-        position: absolute;
-width: flex;
-height: flex;
-left: 0px;
-top: 0px;
-
-background: linear-gradient(90.23deg, rgba(230, 229, 229, 0.61) 0.19%, rgba(224, 221, 221, 0.38) 102.56%);
-background-blend-mode: overlay;
-filter: blur(66.5px);
-border-radius: 46px;
-    }
+    body{ 
+      background: url(/wizard-house/images/harry-potter-house.png) no-repeat center center fixed;
+      background-size: cover;
+      background-color: black;
+    }    
+    
     .group{
         position: absolute;
 width: flex;
@@ -43,6 +34,7 @@ color: #DCDCDC;
         position: absolute;
         top: 50%;
         left: 20%;
+        height: auto;
         width: 400px;
         padding: 40px;
         margin: 20px auto;
@@ -68,16 +60,19 @@ color: #DCDCDC;
         position: relative;
       }
       
+      .LOGIN{
+        font-size: medium;
+      }
       .login-box .user-box input {
-        width: 100%;
-        padding: 10px 0;
-        font-size: 16px;
-        color: #FCF291;
-        margin-bottom: 30px;
-        border: none;
-        border-bottom: 1px solid #fff;
+        height: 20px;
         outline: none;
+        border: 2px solid orange;
         background: transparent;
+        padding: 20px 20px;
+        border-radius: 30px;
+        transition: .5s;
+        color: white;
+        font-size: 20px; 
       }
       
       .login-box .user-box label {
@@ -87,7 +82,7 @@ color: #DCDCDC;
         left: 0;
         padding: 10px 0;
         font-size: 16px;
-        color: #FCF291;
+        color: #f5f5f1;
         pointer-events: none;
         transition: .5s;
       }
@@ -95,7 +90,7 @@ color: #DCDCDC;
       .login-box .user-box input:focus ~ label,
       .login-box .user-box input:valid ~ label {
         top: -20px;
-        left: 0;
+        left: 5;
         color: #fff;
         font-size: 12px;
       }
@@ -117,8 +112,8 @@ color: #DCDCDC;
 
       .button{
         position: absolute;
-width: 351px;
-height: 80px;
+width: 321px;
+height: 40px;
 left: -15px;
 top: 94px;
 
