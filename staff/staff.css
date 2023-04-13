@@ -60,7 +60,7 @@ body {
   top: 2rem;
   margin-top: 1rem;
 }
-.llg1 {
+.teacher {
   margin: 0rem;
   text-decoration: none;
   color: white;
@@ -69,9 +69,40 @@ body {
   padding-left: 2rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  font-size: 1.4rem;
+  font-family: 'Pirata One';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 31px;
+/* identical to box height */
+
+letter-spacing: 0.155em;
+
+color: rgba(255, 255, 255, 0.925);
   border-radius: 2rem;
 }
+.student{
+  margin: 0rem;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-family: 'Pirata One';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 31px;
+/* identical to box height */
+
+letter-spacing: 0.155em;
+
+color: rgba(255, 255, 255, 0.7);
+  border-radius: 2rem;
+}
+
 .imggg1 {
   width: 4.5rem;
   position: absolute;
