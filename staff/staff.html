@@ -4,20 +4,31 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Staff page</title>
+    <title>Staff page</title><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="staff.css" />
   </head>
   <body>
-    <a
+    <div class="flex-row">
+      <a
       class="toplogo"
       ><img src="/wizard-house/images/logodark.png" alt="TopLogo" class="toplogo1"
     /></a>
-    <div class="ttimg">
-      <div class="imgtag1">
-        <a href="#" class="student">Students</a>
-        <a href="#" class="teacher">Teachers</a>
+    
+      <div class="ttimg">
+        <div class="btn">
+          <img src="../images/witch.png" class="btnimage1">
+          <a href="http://127.0.0.1:5500/wizard-house/student/student.html" class="student">Students</a>
+        </div>
+        <div class="btn">
+          <img src="../images/magician.png" class="btnimage2">
+          <a href="http://127.0.0.1:5500/wizard-house/staff/staff.html" class="teacher">Staff</a>
+        </div>
       </div>
     </div>
+    
+
     <div>
       <div class="card">
         <a id="show">
@@ -39,8 +50,5 @@
         <img src="/wizard-house/images/cardimg6.png" alt="" class="cardimg1" />
       </div>
     </div>
-
-    <!-- <h1>Testing</h1> -->
-    <script src="epic1.js"></script>
   </body>
 </html>

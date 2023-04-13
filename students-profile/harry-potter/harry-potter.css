@@ -1,0 +1,50 @@
+.outercard{
+        width: 790px;
+        height: 554px;
+        background-color: #FFB6A9;
+        margin: auto;
+        align-items: center;
+        filter: blur(41.5px);
+}
+.card {
+    width: 900px;   
+    margin: auto;
+    height: 554px;
+    background: #07182E;
+    position: relative;
+    top: 2cm;
+    display: flex;
+    place-content: center;
+    left: flex;
+    overflow: hidden;
+    border-radius: 29px;
+  }
+  
+  .card h2 {
+  position: absolute;
+    z-index: 1;
+    color: #DCDCDC;
+    align-items:left;
+  font-family: 'Pirata One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 82px;
+  }
+  
+  .card::before {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 130%;
+  }
+  
+  .card::after {
+    content: '';
+    position: absolute;
+    background: #9C1801;
+    filter: blur(20px);
+    inset: 5px;
+    border-radius: 15px;
+  }  
+  
