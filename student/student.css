@@ -1,34 +1,93 @@
-*{
-    background-color: #F6DEFF;
+@font-face {
+  font-family: ff3;
+  src: url("fonts/ff3.ttf");
+}
+.tst1 {
+  width: 1rem;
 }
 
-.group{
-    position: absolute;
-width: flex;
-height: flex;
-left: flex;
-top: flex;
+body {
+  font-family: ff3;
+  background-color: #F6DEFF;
 }
-.grid-container {
-    display: grid;
-    column-gap: 50px;
-  }
+/*  */
+.txt1 {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  font-family: ff3;
+}
+.dia1 {
+  width: 50rem;
+  height: 40rem;
+  background: linear-gradient(
+    90deg,
+    hsla(33, 100%, 53%, 1) 0%,
+    hsla(58, 100%, 68%, 1) 100%
+  );
+  margin: 0;
+  border-radius: 2rem;
+  /* border: 0.5rem solid black; */
+}
+.card1 {
+  display: flex;
+  margin-top: 2rem;
+}
+.card {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  margin-top: 4rem;
+}
+.cardimg1 {
+  transition: all 0.2s ease-in-out;
+  width: 20rem;
+}
+.cardimg1:hover {
+  transform: scale(1.1);
+}
 
-  .student{
-    position: absolute;
-width: 117px;
-height: 83px;
-left: 778px;
-top: 37px;
+.toplogo1 {
+  width: 11rem;
+  margin: 0.6rem;
+}
+.ttimg {
+  /* display: flex;
+  justify-content: flex-end; */
+  position: absolute;
+  right: 3rem;
+  top: 2rem;
+  margin-top: 1rem;
+}
+.llg1 {
+  margin: 0rem;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 1.4rem;
+  border-radius: 2rem;
+}
+.imggg1 {
+  width: 4.5rem;
+  position: absolute;
+  top: 0;
+  right: 10rem;
+}
+@media screen and (max-width: 400px) {
+  .toplogo1 {
+    width: 6rem;
+    margin: 0.6rem;
   }
-  .staff{
-    position: absolute;
-width: 132px;
-height: 83px;
-left: 1063px;
-top: 37px;
+  .llg1 {
+    font-size: 0;
+    padding: 0;
   }
-  
-  .backimage{
-    size: small;
+  .dia1 {
+    width: 2rem;
   }
+}
