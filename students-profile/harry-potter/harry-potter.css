@@ -1,40 +1,96 @@
-.outercard{
-        width: 790px;
-        height: 554px;
-        background-color: #FFB6A9;
-        margin: auto;
-        align-items: center;
-        filter: blur(41.5px);
+body{
+    background-color: #f8e0db;
 }
 .card {
-    width: 900px;   
+    width: 950px;   
     margin: auto;
     height: 554px;
-    background: #07182E;
+    background: #000000;
     position: relative;
     top: 2cm;
     display: flex;
     place-content: center;
-    left: flex;
-    overflow: hidden;
+    
+    /* overflow: hidden; */
     border-radius: 29px;
+    box-shadow: 0 0 50px 40px #FFB6A9;
   }
-  
-  .card h2 {
-  position: absolute;
+  .zindex{
+    z-index: 20;
+  }
+
+  .topimage{
+    position: absolute;
+    width:20%;
+    height:40%;
+    top:-120px;
+    align-self: center;
+  }
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+  .profile{
+    position: relative;
+    margin-top: 50px;
+    margin-left: 250px;
+    width: 300px;
+    height: 350px;
+  }
+
+  .flex-row h2 {
+  position: relative;
     z-index: 1;
     color: #DCDCDC;
-    align-items:left;
+    margin-left: -10px;
   font-family: 'Pirata One';
   font-style: normal;
   font-weight: 400;
-  font-size: 32px;
-  line-height: 82px;
+  font-size: 60px;
+  /* line-height: 82px; */
   }
-  
+  .side-panel{
+    display:block;
+    width:100%;
+    height: 100%;
+  }
+  .toplogo1 {
+    width: 11rem;
+    margin: 0.6rem;
+  }
+.table{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    z-index: 1;
+}
+.first{
+    position: relative;
+      z-index: 1;
+      color: #DCDCDC;
+    font-family: 'Pirata One';
+    font-style: normal;
+    /* font-weight: 400; */
+    font-size: 20px;
+    margin-left: -40px;
+    /* line-height: 42px; */
+    margin-right: 50px;
+}
+.second{
+    position: relative;
+      z-index: 1;
+      color: #DCDCDC;
+    font-family: 'Pirata One';
+    font-style: normal;
+    /* font-weight: 400; */
+    font-size: 20px;
+    margin-left: 150px;
+    /* line-height: 42px; */
+}
   .card::before {
     content: '';
-    position: absolute;
+    position: relative;
     width: 100px;
     height: 130%;
   }
@@ -44,7 +100,7 @@
     position: absolute;
     background: #9C1801;
     filter: blur(20px);
-    inset: 5px;
+    inset: 20px;
     border-radius: 15px;
   }  
   
