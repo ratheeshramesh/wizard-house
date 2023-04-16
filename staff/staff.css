@@ -9,6 +9,7 @@
 body {
   font-family: ff3;
   background-color: #F6DEFF;
+  z-index: -1;
 }
 /*  */
 .txt1 {

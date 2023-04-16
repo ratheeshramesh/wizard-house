@@ -18,7 +18,7 @@
     <div class="rectangle"></div>
     <div class="login-box">
       <p class="LOGIN">LOGIN</p>
-      <form id="login-form" onsubmit="validate(verifyUser())">
+      <form id="login-form" onsubmit="validate(event)">
         <div class="user-box">
           <input required="" id="username" type="text">
           <label>Your Email</label>
@@ -26,9 +26,7 @@
         <div class="user-box">
           <input required="" id="password" type="password">
           <label>Your Password</label>
-        
-          <a href="http://127.0.0.1:5501/wizard-house/student/student.html">
-            <button class="button" type="submit">LOGIN</button></a>
+        <button class="button" type="submit">LOGIN</button>
       </form>
     </div>
     </div>

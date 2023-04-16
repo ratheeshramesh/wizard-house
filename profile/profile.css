@@ -1,3 +1,8 @@
+@font-face {
+    font-family: ff3;
+    src: url("fonts/ff3.ttf");
+  }
+
 body{
     background-color: #f8e0db;
 }
@@ -7,7 +12,6 @@ body{
     background: #9C1801;
     position: relative;
     margin:6% 10% 5% 10%;
-    
     /* place-content: center; */
     /* margin: auto; */
     /* overflow: hidden; */
@@ -24,11 +28,12 @@ body{
     position: absolute;
     width:20%;
     height:40%;
-    top:-120px;
+    top:-150px;
     display: flex;
     margin-left: 40%;
     /* align-content: center; */
   }
+
 .flex-row{
     display: flex;
     flex-direction: row;
@@ -39,13 +44,14 @@ body{
 position: relative;
 width: 300px;
 height: 350px;
-margin:4% 4% 0 0;
+margin:7% 7% 0 0;
+border-radius: 25px;
 }
 
 .header {
 position: relative;
 z-index: 1;
-margin:5% 0 5% 16%;
+margin:8% 0 4% 16%;
 color: #DCDCDC;
 font-family: 'Pirata One';
 font-style: normal;

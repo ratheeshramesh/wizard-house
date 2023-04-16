@@ -52,11 +52,13 @@ z-index:-20;
   position: relative;
   z-index:1;
   height:300px;
+  cursor: pointer;
 }
 .card-img-bottom{
   position: relative;
   width:330px;
   z-index: -1;
+  cursor: pointer;
 }
 .card-img-top{
   position: absolute;
@@ -65,9 +67,11 @@ z-index:-20;
   top:180px;
   left:105px;
   z-index:1;
+  cursor: pointer;
 }
 
 .card-title{
+  z-index: 10;
   position: absolute;
   width:100%;
   font-family: 'Pirata One';
@@ -77,6 +81,8 @@ z-index:-20;
   /* top:-55px; */
   top:345px;
   left:86px;
+  cursor: pointer;
+  color: black;
 }
 /* .cardimg1 {
   transition: all 0.2s ease-in-out;

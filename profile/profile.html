@@ -4,67 +4,73 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>profile</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
-    <title>Hermione Profile</title>
-    <link rel="stylesheet" href="hermione.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="profile.css" />
 </head>
 <body>
-    <a
-      class="toplogo"
-      ><img src="/wizard-house/images/logodark.png" alt="TopLogo" class="toplogo1"
-    /></a>
-    <div class="card">
-        <img src="/wizard-house/images/harry's logo.png" class="zindex topimage">
+    <div class="flex-row">
+        <a
+        class="toplogo"
+        ><img src="/wizard-house/images/logodark.png" alt="TopLogo" class="toplogo1"
+      /></a>
+    
+      </div>
+      
+        
+    <div class="card" id="card">
+        <img src="" class="zindex topimage" id="logo">
         <div class="flex-row">
         <div class="side-panel">
-            <div class="header">Hermione</div>
+            <div class="header" id="name"></div>
             <div class="table-body">
                 <table>
                     <tbody>
                         <tr>
                             <td>Species</td>
-                            <td>Human</td>
+                            <td id="species"></td>
                         </tr>
                         <tr>
                             <td>Gender</td>
-                            <td>Female</td>
+                            <td id="gender"></td>
                         </tr>
                         <tr>
                             <td>House</td>
-                            <td>Gryffinder</td>
+                            <td id="house"></td>
                         </tr>
                         <tr>
                             <td>DOB</td>
-                            <td>19-09-1979</td>
+                            <td id="dob"></td>
                         </tr>
                         <tr>
                             <td>Ancestry</td>
-                            <td>Muggleborn</td>
+                            <td id="ancestry"></td>
                         </tr>
                         <tr>
                             <td>Eye colour</td>
-                            <td>Brown</td>
+                            <td id="eye"></td>
                         </tr>
                         <tr>
-                            <td>Hair colour</td>
-                            <td>Brown</td>
+                            <td>Hair Colour</td>
+                            <td id="hair"></td>
                         </tr>
                         <tr>
                             <td>Wand</td>
-                            <td>Vine Dragon Heartstring</td>
+                            <td id="wand"></td>
                         </tr>
                         <tr>
                             <td>Patronus</td>
-                            <td>Otter</td>
+                            <td id="patronus"></td>
                         </tr>
                     </tbody>
                 </table>
             </div>
         </div>
-        <img src="/wizard-house/images/Hermione-image.png" class="zindex profile">
+        <img src="" class="zindex profile" id="image">
         </div>
     </div>
+    <script src="./profile.js"></script>
 </body>
 </html>
