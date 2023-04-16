@@ -1,3 +1,9 @@
+body {
+  background-image: url(../images/bluebg.png);
+  background-size: cover;
+  
+
+}
 @font-face {
   font-family: ff3;
   src: url("fonts/ff3.ttf");
