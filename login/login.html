@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login page</title>
     <link rel="stylesheet" href="login.css">
-    <script type="text/javascript" src="/wizard-house/js/login.js"></script>
+
   </head>
 <body>
   <div class="group">
@@ -18,17 +18,21 @@
     <div class="rectangle"></div>
     <div class="login-box">
       <p class="LOGIN">LOGIN</p>
-      <form>
+      <form id="login-form" onsubmit="validate(verifyUser())">
         <div class="user-box">
-          <input required="" name="" type="text">
+          <input required="" id="username" type="text">
           <label>Your Email</label>
         </div>
         <div class="user-box">
-          <input required="" name="" type="password">
+          <input required="" id="password" type="password">
           <label>Your Password</label>
-        <button class="button">LOGIN</button>
+        
+          <a href="http://127.0.0.1:5501/wizard-house/student/student.html">
+            <button class="button" type="submit">LOGIN</button></a>
       </form>
     </div>
     </div>
+    <script src="./login.js"></script>
+    <script src="./login.json"></script>
 </body>
 </html>

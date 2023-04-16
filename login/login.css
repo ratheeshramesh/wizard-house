@@ -8,29 +8,12 @@
     
     .group{
         position: absolute;
-width: flex;
-height: flex;
-left: flex;
-top: flex;
-    }
-    .house{
-        position: absolute;
-width: 247px;
-height: 46px;
-left: 10px;
-top: 68.01px;
-
-font-family: 'Pirata One';
-font-style: normal;
-font-weight: 300;
-font-size: 20px;
-line-height: 46px;
-letter-spacing: 0.185em;
-
-color: #DCDCDC;
+        width: flex;
+        height: flex;
+        left: flex;
+        top: flex;
     }
     .login-box {
-        
         position: absolute;
         top: 50%;
         left: 20%;
@@ -63,12 +46,14 @@ color: #DCDCDC;
       .LOGIN{
         font-size: medium;
       }
+
       .login-box .user-box input {
         height: 20px;
         outline: none;
         border: 2px solid orange;
         background: transparent;
-        padding: 20px 20px;
+        padding: 20px 30px;
+        margin-bottom:20px;
         border-radius: 30px;
         transition: .5s;
         color: white;
@@ -78,8 +63,8 @@ color: #DCDCDC;
       .login-box .user-box label {
         position: absolute;
         display: flex;
-        top: 0;
-        left: 0;
+        top: 15px;
+        left: 15px;
         padding: 10px 0;
         font-size: 16px;
         color: #f5f5f1;
@@ -89,13 +74,13 @@ color: #DCDCDC;
       
       .login-box .user-box input:focus ~ label,
       .login-box .user-box input:valid ~ label {
-        top: -20px;
-        left: 5;
+        top: -25px;
+        left: 25px;
         color: #fff;
-        font-size: 12px;
+        font-size: 14px;
       }
       
-      .login-box form a {
+      /* .login-box form a {
         position: relative;
         display: inline-block;
         padding: 10px 120px;
@@ -108,18 +93,18 @@ color: #DCDCDC;
         transition: .5s;
         margin-top: 40px;
         letter-spacing: 3px
-      }
+      } */
 
       .button{
         position: absolute;
-width: 321px;
-height: 40px;
-left: -15px;
-top: 94px;
-
-background: #FFCD2D;
-backdrop-filter: blur(200px);
-/* Note: backdrop-filter has minimal browser support */
-
-border-radius: 38px;
+        width: 310px;
+        height: 40px;
+        left: 5px;
+        top: 94px;
+        font-size: 20px;
+        font-weight: 600px;
+        cursor: pointer;
+        background: #FFCD2D;
+        backdrop-filter: blur(200px);
+        border-radius: 38px;
       }
